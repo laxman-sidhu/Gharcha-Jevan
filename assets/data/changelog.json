@@ -1,0 +1,10 @@
+{
+  "_note": "SAMPLE CHANGE-LOG ROWS so the demo dashboard is not empty. 'minutesAgo' is converted to a timestamp when the demo loads. In production these rows come from the 'Change Log' sheet tab.",
+  "items": [
+    { "minutesAgo": 18, "action": "update", "entityType": "menu", "entityId": "fish-001", "field": "price", "oldValue": "400", "newValue": "420", "user": "Demo Owner" },
+    { "minutesAgo": 96, "action": "update", "entityType": "specials", "entityId": "special-001", "field": "active", "oldValue": "false", "newValue": "true", "user": "Demo Owner" },
+    { "minutesAgo": 245, "action": "update", "entityType": "menu", "entityId": "fish-006", "field": "available", "oldValue": "true", "newValue": "false", "user": "Demo Owner" },
+    { "minutesAgo": 1510, "action": "update", "entityType": "menu", "entityId": "chicken-001", "field": "image", "oldValue": "", "newValue": "(new photo)", "user": "Demo Owner" },
+    { "minutesAgo": 2930, "action": "create", "entityType": "menu", "entityId": "fish-003", "field": "name", "oldValue": "", "newValue": "Bombil Fry", "user": "Demo Owner" }
+  ]
+}

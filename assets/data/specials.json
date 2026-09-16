@@ -1,0 +1,30 @@
+{
+  "_sample": true,
+  "_note": "SAMPLE SPECIALS FOR THE CONCEPT PREVIEW ONLY. Dates use YYYY-MM-DD and are optional: leave them empty for a special with no fixed dates.",
+  "items": [
+    {
+      "id": "special-001",
+      "name": "Mackerel Fry",
+      "description": "Mackerel with a spicy masala crust, served with onion and lemon.",
+      "price": 180,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1584182711222-2068e7eca683",
+      "imagePublicId": "",
+      "startDate": "",
+      "endDate": "",
+      "active": true
+    },
+    {
+      "id": "special-002",
+      "name": "Crab Masala",
+      "description": "Crab in a rich, spicy masala.",
+      "price": 380,
+      "available": true,
+      "image": "",
+      "imagePublicId": "",
+      "startDate": "",
+      "endDate": "",
+      "active": false
+    }
+  ]
+}

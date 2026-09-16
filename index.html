@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <script>document.documentElement.classList.add("js");</script>
+
+  <!-- SEO. PLACEHOLDER: replace the description with the owner's own words once approved. -->
+  <title>Gharcha Jevan | Home-style fish, chicken and thalis</title>
+  <meta name="description" content="Gharcha Jevan serves home-style food: fish, chicken and wholesome thalis. See the menu and order on WhatsApp.">
+  <!-- PLACEHOLDER: replace YOUR-USERNAME with your GitHub username (see README → GitHub Pages). -->
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/gharcha-jevan/">
+  <meta name="theme-color" content="#fbf7f1">
+
+  <!-- Open Graph (link previews on WhatsApp, Facebook, etc.). og:url and og:image need the published URL. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Gharcha Jevan">
+  <meta property="og:title" content="Gharcha Jevan | Food that tastes like home">
+  <meta property="og:description" content="Home-style fish, chicken and thalis. See the menu and order on WhatsApp.">
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/gharcha-jevan/">
+  <meta property="og:image" content="https://YOUR-USERNAME.github.io/gharcha-jevan/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon (placeholder monogram) -->
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+
+  <!-- Fonts: Newsreader (headings) + Manrope (text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=Newsreader:opsz,wght@6..72,400..700&display=swap">
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Shown only while APP_MODE = "DEMO" (js/config.js) -->
+  <div class="demo-bar" data-demo-bar hidden>
+    <div class="container demo-bar__inner">
+      <i data-lucide="info" data-size="18"></i>
+      <p data-demo-bar-text><strong>Concept preview.</strong> Dishes, prices, photos and contact details are samples. <a href="admin/">See the owner dashboard</a></p>
+      <button class="demo-bar__close" type="button" data-demo-close aria-label="Hide this notice"><i data-lucide="x" data-size="18"></i></button>
+    </div>
+  </div>
+
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="#home">
+        <img class="brand__mark" src="assets/images/logo.svg" alt="" width="40" height="40">
+        <span data-bind="businessName">Gharcha Jevan</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="site-nav__list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#thalis">Thalis</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn--primary site-nav__cta" href="#contact" data-wa-link>
+          <i data-lucide="whatsapp"></i>WhatsApp / Order
+        </a>
+      </nav>
+
+      <a class="icon-btn header-wa" href="#contact" data-wa-link aria-label="Order on WhatsApp">
+        <i data-lucide="whatsapp" data-size="22"></i>
+      </a>
+      <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <i data-lucide="menu" data-size="22"></i>
+        <span class="sr-only" data-nav-toggle-label>Open menu</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="hero__label" data-bind="businessName">Gharcha Jevan</p>
+          <h1 class="hero__title" id="hero-title" data-bind="tagline"><span>Food that tastes</span> <span>like home</span></h1>
+          <!-- PLACEHOLDER COPY: replace with the owner's own description. -->
+          <p class="hero__lead">Fresh fish, chicken and wholesome thalis, cooked the way they are at home.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="#menu">View menu</a>
+            <a class="btn btn--outline btn--lg" href="#contact" data-wa-link><i data-lucide="whatsapp"></i>WhatsApp / Order</a>
+          </div>
+          <a class="scroll-cue" href="#about"><span class="scroll-cue__line" aria-hidden="true"></span>Scroll to explore</a>
+        </div>
+        <figure class="hero__media">
+          <!-- Photo is set from js/site-images.js (or Admin → Business info) -->
+          <img class="hero__img" data-site-image="hero" alt="" width="760" height="950">
+          <figcaption class="photo-note" data-demo-only hidden>Sample photo</figcaption>
+          <!-- Filled from the live special (js/app.js); stays hidden when there is none. -->
+          <a class="hero-special" href="#specials" data-hero-special hidden>
+            <span class="hero-special__icon"><i data-lucide="sparkles" data-size="20"></i></span>
+            <span class="hero-special__text"><small>Today's special</small><strong data-hero-special-name></strong></span>
+            <span class="hero-special__price" data-hero-special-price></span>
+          </a>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <figure class="about__media" data-reveal>
+          <img class="about__img" data-site-image="about" alt="" width="680" height="850">
+          <figcaption class="photo-note" data-demo-only hidden>Sample photo</figcaption>
+        </figure>
+        <div class="about__copy" data-reveal>
+          <p class="section-label">About us</p>
+          <h2 class="section-title" id="about-title">From our kitchen to your plate</h2>
+          <!-- PLACEHOLDER: the About text is edited in Admin → Business info -->
+          <p class="about__text" data-bind="aboutText">This space will tell the story behind the kitchen, in the owner's own words.</p>
+          <!-- PLACEHOLDER highlights: edit or replace these three once the owner approves. -->
+          <ul class="highlights">
+            <li class="highlight">
+              <i data-lucide="cooking-pot"></i>
+              <strong>Freshly Prepared</strong>
+              <span>Fresh, made every day</span>
+            </li>
+            <li class="highlight">
+              <i data-lucide="flame"></i>
+              <strong>Home-style Masala</strong>
+              <span>Roasted spice blends</span>
+            </li>
+            <li class="highlight">
+              <i data-lucide="house"></i>
+              <strong>Homely Taste</strong>
+              <span>Like a home-cooked meal</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SPECIALITIES ================= -->
+    <section class="section section--sand specialities" id="specialities" aria-labelledby="spec-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2 class="section-title" id="spec-title">Our specialities</h2>
+          <p class="section-head__sub">Fish, chicken and complete thalis</p>
+        </div>
+        <ul class="spec-grid" data-reveal>
+          <li class="spec-card">
+            <a class="spec-card__link" href="#menu" data-menu-tab="Fish">
+              <div class="spec-card__media"><img data-site-image="specialityFish" alt="" width="560" height="700"></div>
+              <div class="spec-card__body">
+                <h3 class="spec-card__title spec-card__name">Fish</h3>
+                <p class="spec-card__text">Fresh fish dishes and traditional preparations.</p>
+                <span class="spec-card__arrow"><i data-lucide="arrow-right" data-size="22"></i><span class="sr-only">View fish menu</span></span>
+              </div>
+            </a>
+          </li>
+          <li class="spec-card">
+            <a class="spec-card__link" href="#menu" data-menu-tab="Chicken">
+              <div class="spec-card__media"><img data-site-image="specialityChicken" alt="" width="560" height="700"></div>
+              <div class="spec-card__body">
+                <h3 class="spec-card__title spec-card__name">Chicken</h3>
+                <p class="spec-card__text">Flavourful chicken dishes, cooked home-style.</p>
+                <span class="spec-card__arrow"><i data-lucide="arrow-right" data-size="22"></i><span class="sr-only">View chicken menu</span></span>
+              </div>
+            </a>
+          </li>
+          <li class="spec-card">
+            <a class="spec-card__link" href="#thalis">
+              <div class="spec-card__media"><img data-site-image="specialityThali" alt="" width="560" height="700"></div>
+              <div class="spec-card__body">
+                <h3 class="spec-card__title spec-card__name">Thalis</h3>
+                <p class="spec-card__text">Complete meals with a variety of homely dishes.</p>
+                <span class="spec-card__arrow"><i data-lucide="arrow-right" data-size="22"></i><span class="sr-only">View thalis</span></span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= STORY ================= -->
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="story__pattern" aria-hidden="true"></div>
+      <div class="container story__inner">
+        <h2 class="story__title" id="story-title" data-reveal><span>Made the</span> <span>home way</span></h2>
+        <div data-reveal>
+          <!-- PLACEHOLDER COPY: general notes on the food. Adjust with the owner. -->
+          <p class="story__lead">Gharcha Jevan means “a home-cooked meal” in Marathi, and that is the idea behind every plate: the day's fish, a freshly roasted masala and simple, filling rice-based meals.</p>
+          <ul class="story__notes">
+            <li class="story__note">
+              <i data-lucide="flame"></i>
+              <h3>Roasted masala</h3>
+              <p>A roasted spice blend gives the curries their colour and warmth.</p>
+            </li>
+            <li class="story__note">
+              <i data-lucide="fish"></i>
+              <h3>Fish at the centre</h3>
+              <p>Fried, dry-cooked with masala, or simmered in a tangy curry.</p>
+            </li>
+            <li class="story__note">
+              <i data-lucide="wheat"></i>
+              <h3>Rice and bhakri</h3>
+              <p>Meals are eaten with steamed rice or soft rice-flour bhakri.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MENU (rendered from data by js/menu.js) ================= -->
+    <section class="section menu" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-head section-head--split" data-reveal>
+          <div>
+            <h2 class="section-title" id="menu-title">Our menu</h2>
+            <p class="section-head__sub">Browse the dishes by category</p>
+          </div>
+          <p class="sample-note" data-demo-only hidden><i data-lucide="info" data-size="16"></i>Sample dishes and prices for this preview</p>
+        </div>
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories" data-menu-tabs></div>
+        <div class="menu-panel" role="tabpanel" tabindex="0" data-menu-panel aria-busy="true">
+          <div class="menu-skeleton" aria-hidden="true"><span></span><span></span><span></span></div>
+          <p class="sr-only">Loading the menu…</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= THALIS ================= -->
+    <section class="section section--sand thalis" id="thalis" aria-labelledby="thalis-title">
+      <div class="container">
+        <div class="section-head section-head--split" data-reveal>
+          <div>
+            <h2 class="section-title" id="thalis-title">Thalis</h2>
+            <p class="section-head__sub">Complete meals on one plate</p>
+          </div>
+          <p class="sample-note" data-demo-only hidden><i data-lucide="info" data-size="16"></i>Sample thalis for this preview</p>
+        </div>
+        <ul class="thali-grid" data-thalis aria-busy="true"></ul>
+      </div>
+    </section>
+
+    <!-- ================= TODAY'S SPECIAL (hidden when nothing is live) ================= -->
+    <section class="section specials" id="specials" aria-labelledby="specials-title" data-specials-section hidden>
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2 class="section-title" id="specials-title">Today's special</h2>
+        </div>
+        <div data-specials></div>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head section-head--split" data-reveal>
+          <div>
+            <h2 class="section-title" id="gallery-title">Gallery</h2>
+            <p class="section-head__sub">A look at our food</p>
+          </div>
+          <div class="chips" role="group" aria-label="Filter photos" data-gallery-filters></div>
+        </div>
+        <ul class="gallery-grid" data-gallery aria-busy="true"></ul>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section--sand contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div data-reveal>
+          <h2 class="section-title" id="contact-title">Contact and orders</h2>
+          <p class="contact__text">Send your order on WhatsApp or give us a call.</p>
+          <div class="contact__actions">
+            <a class="btn btn--green btn--lg" href="#contact" data-wa-link><i data-lucide="whatsapp"></i>WhatsApp</a>
+            <a class="btn btn--outline btn--lg" href="#contact" data-directions-link><i data-lucide="navigation"></i>Get Directions</a>
+          </div>
+        </div>
+        <!-- Values come from Business info (CMS). Placeholders show only in demo mode. -->
+        <dl class="contact-list" data-reveal>
+          <div class="contact-item" data-contact-row="phone">
+            <span class="contact-item__icon" aria-hidden="true"><i data-lucide="phone"></i></span>
+            <dt>Phone</dt>
+            <dd data-contact="phone"><span class="ph">[PHONE NUMBER]</span></dd>
+          </div>
+          <div class="contact-item" data-contact-row="whatsapp">
+            <span class="contact-item__icon" aria-hidden="true"><i data-lucide="whatsapp"></i></span>
+            <dt>WhatsApp</dt>
+            <dd data-contact="whatsapp"><span class="ph">[WHATSAPP NUMBER]</span></dd>
+          </div>
+          <div class="contact-item" data-contact-row="address">
+            <span class="contact-item__icon" aria-hidden="true"><i data-lucide="map-pin"></i></span>
+            <dt>Address</dt>
+            <dd data-contact="address"><span class="ph">[BUSINESS ADDRESS]</span></dd>
+          </div>
+          <div class="contact-item" data-contact-row="openingHours">
+            <span class="contact-item__icon" aria-hidden="true"><i data-lucide="clock"></i></span>
+            <dt>Opening hours</dt>
+            <dd data-contact="openingHours"><span class="ph">[OPENING HOURS]</span></dd>
+          </div>
+          <div class="contact-item" data-contact-row="mapsUrl">
+            <span class="contact-item__icon" aria-hidden="true"><i data-lucide="map"></i></span>
+            <dt>Google Maps</dt>
+            <dd data-contact="mapsUrl"><span class="ph">[GOOGLE MAPS LINK]</span></dd>
+          </div>
+          <div class="contact-item" data-contact-row="instagramUrl">
+            <span class="contact-item__icon" aria-hidden="true"><i data-lucide="instagram"></i></span>
+            <dt>Instagram</dt>
+            <dd data-contact="instagramUrl"><span class="ph">[INSTAGRAM LINK]</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div>
+        <a class="brand" href="#home">
+          <img class="brand__mark" src="assets/images/logo.svg" alt="" width="40" height="40" loading="lazy">
+          <span data-bind="businessName">Gharcha Jevan</span>
+        </a>
+        <p class="footer-tagline" data-bind="tagline">Food that tastes like home</p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="footer-title">Explore</p>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#thalis">Thalis</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="footer-title">Find us</p>
+        <ul class="footer-links">
+          <li><a href="#contact" data-wa-link><i data-lucide="whatsapp"></i>WhatsApp</a></li>
+          <li><a href="#contact" data-instagram-link><i data-lucide="instagram"></i>Instagram</a></li>
+          <li><a href="#contact" data-directions-link><i data-lucide="map-pin"></i>Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>© <span data-year>2026</span> <span data-bind="businessName">Gharcha Jevan</span>. All rights reserved.</p>
+      <p><a href="admin/">Owner login</a></p>
+    </div>
+  </footer>
+
+  <a class="btn btn--green order-fab is-hidden" href="#contact" data-wa-link data-order-fab><i data-lucide="whatsapp"></i>WhatsApp / Order</a>
+
+  <dialog class="lightbox" data-lightbox aria-label="Photo viewer">
+    <div class="lightbox__bar">
+      <p class="lightbox__count" data-lightbox-count></p>
+      <button class="lightbox__btn" type="button" data-lightbox-close aria-label="Close photo"><i data-lucide="x" data-size="24"></i></button>
+    </div>
+    <div class="lightbox__stage" data-lightbox-stage>
+      <img class="lightbox__img" data-lightbox-img alt="">
+      <button class="lightbox__btn lightbox__nav lightbox__nav--prev" type="button" data-lightbox-prev aria-label="Previous photo"><i data-lucide="chevron-left" data-size="26"></i></button>
+      <button class="lightbox__btn lightbox__nav lightbox__nav--next" type="button" data-lightbox-next aria-label="Next photo"><i data-lucide="chevron-right" data-size="26"></i></button>
+    </div>
+    <p class="lightbox__caption" data-lightbox-caption></p>
+  </dialog>
+
+  <div class="toast-region" role="status" aria-live="polite" data-toasts></div>
+
+  <noscript>
+    <p style="padding:1rem;text-align:center;background:#2e231d;color:#f3e9da">Please turn on JavaScript to see the menu and photos.</p>
+  </noscript>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "_sample": true,
+  "_note": "SAMPLE THALIS FOR THE CONCEPT PREVIEW ONLY. Not the owner's real thalis, items or prices. Replace with real offerings.",
+  "items": [
+    {
+      "id": "thali-001",
+      "name": "Surmai Thali",
+      "description": "A complete fish meal built around fried surmai.",
+      "price": 350,
+      "items": [
+        "Surmai fry (2 pcs)",
+        "Fish curry",
+        "Rice",
+        "Rice bhakri (2)",
+        "Sol kadhi",
+        "Onion and lemon"
+      ],
+      "available": true,
+      "featured": true,
+      "image": "https://images.unsplash.com/photo-1786222084052-fb6f27bfb135",
+      "imagePublicId": "",
+      "displayOrder": 1
+    },
+    {
+      "id": "thali-002",
+      "name": "Chicken Thali",
+      "description": "Dry and gravy chicken with rice and bhakri.",
+      "price": 280,
+      "items": [
+        "Chicken sukka",
+        "Chicken curry",
+        "Rice",
+        "Rice bhakri (2)",
+        "Onion and lemon"
+      ],
+      "available": true,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1542367592-8849eb950fd8",
+      "imagePublicId": "",
+      "displayOrder": 2
+    },
+    {
+      "id": "thali-003",
+      "name": "Prawn Thali",
+      "description": "A prawn thali for seafood lovers.",
+      "price": 320,
+      "items": [
+        "Prawn masala",
+        "Fish curry",
+        "Rice",
+        "Rice bhakri (2)",
+        "Sol kadhi"
+      ],
+      "available": true,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1786227905994-235e1799292e",
+      "imagePublicId": "",
+      "displayOrder": 3
+    }
+  ]
+}

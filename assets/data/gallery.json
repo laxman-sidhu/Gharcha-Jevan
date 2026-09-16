@@ -1,0 +1,15 @@
+{
+  "_sample": true,
+  "_note": "SAMPLE GALLERY FOR THE CONCEPT PREVIEW ONLY. Free Unsplash photos — not the owner's food or premises. Categories: Food, Fish, Chicken, Thali, Restaurant, Events.",
+  "items": [
+    { "id": "photo-001", "image": "https://images.unsplash.com/photo-1756741987051-a6a38f28838b", "imagePublicId": "", "category": "Thali", "caption": "Fish thali (sample photo)", "displayOrder": 1, "active": true },
+    { "id": "photo-002", "image": "https://images.unsplash.com/photo-1765265432611-17d3f2da2d5d", "imagePublicId": "", "category": "Fish", "caption": "Masala fish fry (sample photo)", "displayOrder": 2, "active": true },
+    { "id": "photo-003", "image": "https://images.unsplash.com/photo-1742281257687-092746ad6021", "imagePublicId": "", "category": "Thali", "caption": "Thali with side dishes (sample photo)", "displayOrder": 3, "active": true },
+    { "id": "photo-004", "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398", "imagePublicId": "", "category": "Chicken", "caption": "Chicken curry (sample photo)", "displayOrder": 4, "active": true },
+    { "id": "photo-005", "image": "https://images.unsplash.com/photo-1742281258189-3b933879867a", "imagePublicId": "", "category": "Food", "caption": "A full meal on a platter (sample photo)", "displayOrder": 5, "active": true },
+    { "id": "photo-006", "image": "https://images.unsplash.com/photo-1711153419402-336ee48f2138", "imagePublicId": "", "category": "Thali", "caption": "Steel thali (sample photo)", "displayOrder": 6, "active": true },
+    { "id": "photo-007", "image": "https://images.unsplash.com/photo-1661939252817-ebb73304f4c7", "imagePublicId": "", "category": "Fish", "caption": "Fish on a leaf (sample photo)", "displayOrder": 7, "active": true },
+    { "id": "photo-008", "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d", "imagePublicId": "", "category": "Food", "caption": "Home-style spread (sample photo)", "displayOrder": 8, "active": true },
+    { "id": "photo-009", "image": "https://images.unsplash.com/photo-1589778655375-3e622a9fc91c", "imagePublicId": "", "category": "Food", "caption": "Lunch on a steel tray (sample photo)", "displayOrder": 9, "active": true }
+  ]
+}

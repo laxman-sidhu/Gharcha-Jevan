@@ -1,0 +1,18 @@
+{
+  "_note": "PLACEHOLDERS. Replace with the owner's real details, or edit them in Admin → Business info once the CMS is connected. Values in [BRACKETS] are shown as placeholders on the demo site and hidden on the live site.",
+  "info": {
+    "businessName": "Gharcha Jevan",
+    "tagline": "Food that tastes like home",
+    "phone": "[PHONE NUMBER]",
+    "whatsapp": "[WHATSAPP NUMBER]",
+    "address": "[BUSINESS ADDRESS]",
+    "mapsUrl": "[GOOGLE MAPS LINK]",
+    "instagramUrl": "[INSTAGRAM LINK]",
+    "openingHours": "[OPENING HOURS]",
+    "aboutText": "Gharcha Jevan brings the comfort of home cooking to your table: fish, chicken and wholesome thalis made with care. This space will tell the story behind the kitchen, in the owner's own words.",
+    "heroImage": "",
+    "heroImagePublicId": "",
+    "aboutImage": "",
+    "aboutImagePublicId": ""
+  }
+}

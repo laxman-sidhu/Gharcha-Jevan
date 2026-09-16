@@ -1,0 +1,19 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies and local tooling (the site itself needs none)
+node_modules/
+
+# Secrets must NEVER be committed. The Cloudinary API secret and the list of
+# allowed editors live in Google Apps Script "Script properties", not here.
+.env
+.env.*
+*.pem
+*.key
+secrets*
+credentials*.json
+service-account*.json
+*.local.js

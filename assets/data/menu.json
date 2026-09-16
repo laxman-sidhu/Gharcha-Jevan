@@ -1,0 +1,150 @@
+{
+  "_sample": true,
+  "_note": "SAMPLE DATA FOR THE CONCEPT PREVIEW ONLY. These are NOT the owner's real dishes, descriptions or prices, and the photos are free Unsplash sample images (listed under Sample photos in assets/README.md). Replace everything with the owner's real menu. Categories: Fish, Chicken, Thali, Specials, Other.",
+  "items": [
+    {
+      "id": "fish-001",
+      "category": "Fish",
+      "name": "Surmai Fry",
+      "description": "Kingfish slices coated in home-style masala and shallow fried.",
+      "price": 420,
+      "available": true,
+      "featured": true,
+      "image": "https://images.unsplash.com/photo-1765265432607-cdc1060294ba",
+      "imagePublicId": "",
+      "displayOrder": 1
+    },
+    {
+      "id": "fish-002",
+      "category": "Fish",
+      "name": "Pomfret Fry",
+      "description": "Whole pomfret with a spicy masala crust, served with onion and lemon.",
+      "price": 450,
+      "available": true,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1633962498172-e5921a95b629",
+      "imagePublicId": "",
+      "displayOrder": 2
+    },
+    {
+      "id": "fish-003",
+      "category": "Fish",
+      "name": "Bombil Fry",
+      "description": "Bombay duck coated in rice flour and masala, fried until crisp.",
+      "price": 220,
+      "available": true,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1661939252817-ebb73304f4c7",
+      "imagePublicId": "",
+      "displayOrder": 3
+    },
+    {
+      "id": "fish-004",
+      "category": "Fish",
+      "name": "Prawn Masala",
+      "description": "Prawns cooked in a thick, spicy onion masala.",
+      "price": 320,
+      "available": true,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1654863404432-cac67587e25d",
+      "imagePublicId": "",
+      "displayOrder": 4
+    },
+    {
+      "id": "fish-005",
+      "category": "Fish",
+      "name": "Fish Curry",
+      "description": "Everyday fish curry with a tangy, spicy gravy. Best with rice or bhakri.",
+      "price": 240,
+      "available": true,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1620894580123-466ad3a0ca06",
+      "imagePublicId": "",
+      "displayOrder": 5
+    },
+    {
+      "id": "fish-006",
+      "category": "Fish",
+      "name": "Clam Masala",
+      "description": "Clams cooked dry with onion and roasted masala.",
+      "price": 260,
+      "available": false,
+      "featured": false,
+      "image": "",
+      "imagePublicId": "",
+      "displayOrder": 6
+    },
+    {
+      "id": "chicken-001",
+      "category": "Chicken",
+      "name": "Chicken Sukka",
+      "description": "Chicken cooked dry with a roasted, spicy masala.",
+      "price": 280,
+      "available": true,
+      "featured": true,
+      "image": "https://images.unsplash.com/photo-1606843046080-45bf7a23c39f",
+      "imagePublicId": "",
+      "displayOrder": 1
+    },
+    {
+      "id": "chicken-002",
+      "category": "Chicken",
+      "name": "Chicken Curry",
+      "description": "Chicken in a thin, fiery curry made for dipping bhakri.",
+      "price": 260,
+      "available": true,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1707448829764-9474458021ed",
+      "imagePublicId": "",
+      "displayOrder": 2
+    },
+    {
+      "id": "chicken-003",
+      "category": "Chicken",
+      "name": "Chicken Fry",
+      "description": "Masala-marinated chicken pieces, pan fried.",
+      "price": 300,
+      "available": true,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1708782344490-9026aaa5eec7",
+      "imagePublicId": "",
+      "displayOrder": 3
+    },
+    {
+      "id": "other-001",
+      "category": "Other",
+      "name": "Rice Bhakri",
+      "description": "Soft rice-flour flatbread.",
+      "price": 20,
+      "available": true,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1567337710282-00832b415979",
+      "imagePublicId": "",
+      "displayOrder": 1
+    },
+    {
+      "id": "other-002",
+      "category": "Other",
+      "name": "Sol Kadhi",
+      "description": "Cooling kokum and coconut milk drink.",
+      "price": 40,
+      "available": true,
+      "featured": false,
+      "image": "",
+      "imagePublicId": "",
+      "displayOrder": 2
+    },
+    {
+      "id": "other-003",
+      "category": "Other",
+      "name": "Steamed Rice",
+      "description": "A plate of plain steamed rice.",
+      "price": 50,
+      "available": true,
+      "featured": false,
+      "image": "https://images.unsplash.com/photo-1588644525273-f37b60d78512",
+      "imagePublicId": "",
+      "displayOrder": 3
+    }
+  ]
+}
